@@ -1,7 +1,7 @@
 import streamlit as st
-from scripts.load_data import load_data
-from scripts.analysis import advanced_analysis
-from scripts.ml_model import train_model
+from load_data import load_data
+from analysis import advanced_analysis
+from ml_model import train_model
 
 st.set_page_config(page_title="Healthcare Dashboard", layout="wide")
 
